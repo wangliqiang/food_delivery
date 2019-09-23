@@ -354,7 +354,10 @@ class CustomAppBar extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(right: 30),
-        child: Text(length.toString()),
+        child: Text(
+          length.toString(),
+          style: TextStyle(color: Colors.white),
+        ),
         padding: EdgeInsets.all(15),
         decoration: BoxDecoration(
           color: Colors.yellow[800],
